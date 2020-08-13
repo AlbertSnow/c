@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-13T01:59:22.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="A_vYVFZTr6k9tSlXu9AH" version="13.1.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-08-13T04:31:10.102Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="F07tr60hHaqi5zGRSSbz" version="13.1.3" type="github" pages="5">
   <diagram id="gOVtRJD9n_OJq5au72v4" name="pre-module">
     <mxGraphModel dx="4600" dy="2282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -432,7 +432,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lXPT269-jNxyrpEO6Xr7" name="API-data-source">
-    <mxGraphModel dx="1609" dy="2282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="2074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="akYN7-Ek86wsq7z_hdIn-0" />
         <mxCell id="akYN7-Ek86wsq7z_hdIn-1" parent="akYN7-Ek86wsq7z_hdIn-0" />
@@ -457,8 +457,8 @@
         <mxCell id="I2wi246tvXiAv2E0rDoX-19" value="EmptyDetect" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
           <mxGeometry x="160" y="320" width="140" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="I2wi246tvXiAv2E0rDoX-29" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DocDetectWapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;-&lt;span&gt;&amp;nbsp;docDetect:IDocDetect&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
-          <mxGeometry x="1020" y="320" width="210" height="50" as="geometry" />
+        <mxCell id="I2wi246tvXiAv2E0rDoX-29" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DocDetectWapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;-&lt;span&gt;&amp;nbsp;docDetect:DocDetect&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
+          <mxGeometry x="1080" y="322" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="I2wi246tvXiAv2E0rDoX-30" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-29" target="I2wi246tvXiAv2E0rDoX-17">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -467,26 +467,26 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I2wi246tvXiAv2E0rDoX-32" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DocDetectAPI&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;&lt;span&gt;+ enableLog : false&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ newDocDetect(): IDocDetect&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ testDetect(): IDocDetect&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
-          <mxGeometry x="380" y="-170" width="240" height="90" as="geometry" />
+          <mxGeometry x="386.75" y="-170" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="I2wi246tvXiAv2E0rDoX-33" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-32" target="I2wi246tvXiAv2E0rDoX-17">
-          <mxGeometry x="-1" y="-704" width="160" relative="1" as="geometry">
+          <mxGeometry x="-1" y="-490" width="160" relative="1" as="geometry">
             <mxPoint x="810" y="-10" as="sourcePoint" />
             <mxPoint x="970" y="-10" as="targetPoint" />
-            <mxPoint x="261" y="-614" as="offset" />
+            <mxPoint x="108" y="-354" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I2wi246tvXiAv2E0rDoX-34" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IDocDetect&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;init(context: Context): Boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ release():void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ resetTrack():void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ detectNoPicWhenTakeFrame(imageData: ByteArray?, width: Int, height: Int): DetectResult?&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ detectGetPicWhenTakePic(imageData: ByteArray?, width: Int, height: Int): DetectResult?&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ detectGetPicWhenAlbumPic(imageData: ByteArray?, width: Int, height: Int): DetectResult?&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
-          <mxGeometry x="346" y="520" width="520" height="150" as="geometry" />
+        <mxCell id="I2wi246tvXiAv2E0rDoX-34" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IDocDataSource&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;getDestPath(context: Context): File&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ init(context: Context):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
+          <mxGeometry x="380" y="510" width="254" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="I2wi246tvXiAv2E0rDoX-35" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.6;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.177;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" target="I2wi246tvXiAv2E0rDoX-34">
+        <mxCell id="I2wi246tvXiAv2E0rDoX-35" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.177;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.541;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" target="I2wi246tvXiAv2E0rDoX-34" source="I2wi246tvXiAv2E0rDoX-48">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="210" y="810" as="sourcePoint" />
+            <mxPoint x="240" y="720" as="sourcePoint" />
             <mxPoint x="536" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I2wi246tvXiAv2E0rDoX-36" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DocDetect&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;-&lt;span&gt;&amp;nbsp;pointer: Long&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ InitializeDocDetect(modelPath: String?): Long&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ detectDocument(objectPointer: Long, imageData: ByteArray?, width: Int, height: Int): DetectResult?&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ correctDocument(objectPointer: Long, imageData: ByteArray?, width: Int, height: Int): DetectResult?&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ albumDocumentExtraction(objectPointer: Long, imageData: ByteArray?, width: Int, height: Int): DetectResult?&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ ReleaseDocDetect(objectPointer: Long)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ ResetDocDetect(objectPointer: Long)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
-          <mxGeometry x="301" y="810" width="610" height="150" as="geometry" />
+        <mxCell id="I2wi246tvXiAv2E0rDoX-36" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Singleton&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DocDataRepository&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;-&lt;span&gt;&amp;nbsp;&lt;/span&gt;realSource: IDocDataSource?&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ attach(dataSource: IDocDataSource)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
+          <mxGeometry x="363.5" y="700" width="286.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="I2wi246tvXiAv2E0rDoX-37" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-36" target="I2wi246tvXiAv2E0rDoX-34">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -494,13 +494,99 @@
             <mxPoint x="448.03999999999996" y="683" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I2wi246tvXiAv2E0rDoX-38" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DocDetectWapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;-&lt;span&gt;&amp;nbsp;docDetect:IDocDetect&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
-          <mxGeometry x="986" y="810" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="I2wi246tvXiAv2E0rDoX-39" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-38" target="I2wi246tvXiAv2E0rDoX-34">
+        <mxCell id="I2wi246tvXiAv2E0rDoX-41" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;entryX=1.022;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-63" target="I2wi246tvXiAv2E0rDoX-71">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="265" y="1160" as="sourcePoint" />
-            <mxPoint x="651" y="1020" as="targetPoint" />
+            <mxPoint x="1450" y="-320" as="sourcePoint" />
+            <mxPoint x="1880" y="-320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1610" y="-340" />
+              <mxPoint x="1610" y="-130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-43" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-36" target="I2wi246tvXiAv2E0rDoX-48">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1130" y="640" as="sourcePoint" />
+            <mxPoint x="1290" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-44" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.998;entryY=0.187;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-29" target="I2wi246tvXiAv2E0rDoX-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1081" y="430" as="sourcePoint" />
+            <mxPoint x="1241" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-45" value="规避以后子&lt;br&gt;类，调用native层代码，native层反射出现异常" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
+          <mxGeometry x="1320" y="400" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-47" value="" style="endArrow=none;dashed=1;html=1;entryX=0.929;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-45" target="I2wi246tvXiAv2E0rDoX-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="510" as="sourcePoint" />
+            <mxPoint x="830" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-48" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DocAssetsDataSource&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
+          <mxGeometry x="60" y="720" width="219" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-49" value="方便外部模&lt;br&gt;型自定义加载路径" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
+          <mxGeometry x="730" y="760" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-50" value="" style="endArrow=none;dashed=1;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-49" target="I2wi246tvXiAv2E0rDoX-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="196.90999999999997" y="927" as="sourcePoint" />
+            <mxPoint x="692.0000000000001" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-52" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-24" target="I2wi246tvXiAv2E0rDoX-34">
+          <mxGeometry x="-0.2034" y="-956" width="160" relative="1" as="geometry">
+            <mxPoint x="720" y="520" as="sourcePoint" />
+            <mxPoint x="730" y="630" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-61" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;FrameManager&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;&lt;span&gt;+ mFrameHandler: IFrameHandler&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
+          <mxGeometry x="740" y="-485" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-63" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IFrameHandler&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ init(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ handleFrame(context: Context):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ release()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
+          <mxGeometry x="1090" y="-400" width="254" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-64" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DocAdatper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;- docDetect: IDocDetect&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
+          <mxGeometry x="890" y="-170" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-65" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-64" target="I2wi246tvXiAv2E0rDoX-63">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1069" y="20" as="sourcePoint" />
+            <mxPoint x="1210" y="-272" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-67" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-69" target="I2wi246tvXiAv2E0rDoX-63">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1800.780991735537" y="-20" as="sourcePoint" />
+            <mxPoint x="1623.904958677686" y="-120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-68" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-64" target="I2wi246tvXiAv2E0rDoX-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1740" y="5" as="sourcePoint" />
+            <mxPoint x="2056" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-69" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ArAdapter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;- arHandler: IGraphicHandler&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
+          <mxGeometry x="1122" y="-170" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-70" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.55;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-61" target="I2wi246tvXiAv2E0rDoX-63">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2073.5" y="-250" as="sourcePoint" />
+            <mxPoint x="1819" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-71" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;FrameHandlerGroup&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;- docDetect: IFrameHandler&lt;br&gt;-&amp;nbsp; arHandler: IFrameHandler&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="akYN7-Ek86wsq7z_hdIn-1">
+          <mxGeometry x="1350" y="-170" width="183" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="I2wi246tvXiAv2E0rDoX-72" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="akYN7-Ek86wsq7z_hdIn-1" source="I2wi246tvXiAv2E0rDoX-71" target="I2wi246tvXiAv2E0rDoX-63">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1370.3793103448274" y="-160" as="sourcePoint" />
+            <mxPoint x="1380" y="-240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
